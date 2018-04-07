@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		545CBBED207855E200C8FE27 /* field_observations.json in Resources */ = {isa = PBXBuildFile; fileRef = 545CBBEC207855E200C8FE27 /* field_observations.json */; };
 		546E18622073EF7A004BECB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546E18612073EF7A004BECB9 /* AppDelegate.swift */; };
 		546E18672073EF7A004BECB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 546E18652073EF7A004BECB9 /* Main.storyboard */; };
 		546E18692073EF7B004BECB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 546E18682073EF7B004BECB9 /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		545CBBEC207855E200C8FE27 /* field_observations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = field_observations.json; sourceTree = "<group>"; };
 		546E185E2073EF7A004BECB9 /* FieldSurvey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FieldSurvey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		546E18612073EF7A004BECB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		546E18662073EF7A004BECB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -72,6 +74,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		545CBBE7207854D700C8FE27 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				545CBBEC207855E200C8FE27 /* field_observations.json */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		546E18552073EF7A004BECB9 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +105,7 @@
 		546E18602073EF7A004BECB9 /* FieldSurvey */ = {
 			isa = PBXGroup;
 			children = (
+				545CBBE7207854D700C8FE27 /* Model */,
 				546E18612073EF7A004BECB9 /* AppDelegate.swift */,
 				546E18652073EF7A004BECB9 /* Main.storyboard */,
 				546E18682073EF7B004BECB9 /* Assets.xcassets */,
@@ -227,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				546E186C2073EF7B004BECB9 /* LaunchScreen.storyboard in Resources */,
+				545CBBED207855E200C8FE27 /* field_observations.json in Resources */,
 				546E18692073EF7B004BECB9 /* Assets.xcassets in Resources */,
 				546E18672073EF7A004BECB9 /* Main.storyboard in Resources */,
 			);
